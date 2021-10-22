@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 940px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    margin-left: 10rem;
+    transition: all 0.3s;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 136, 0);
+    text-shadow: 2px 0px 10px rgb(255, 102, 0);
+    text-shadow: 2px 0px 6px rgb(255, 217, 0);
+    font-size: 50px;
+}
+
+nav li:hover {
+    transform: scale(1.2);    
+}
+
+.background {
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+header {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo-titulo {
+    z-index: 2;   
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+section {
+    background-color:rgba(0, 0, 0, 0.438);
+    z-index: 2;
+    padding: 3rem;
+}
+
+section p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 3px 3px 3px black;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    color: rgb(255, 136, 0);
+    text-shadow: 2px 0px 5px rgb(95, 38, 0);
+    text-shadow: 2px 0px 3px rgb(119, 101, 0);
+}
+
+.marca-texto {
+    font-size: 20px;
+    color: rgb(255, 136, 0);
+    text-shadow: 2px 0px 5px rgb(95, 38, 0);
+    text-shadow: 2px 0px 3px rgb(119, 101, 0);
+}
+
+.marca-texto:hover {
+    text-shadow: 2px 0px 7px rgb(54, 22, 0);
+    text-shadow: 2px 0px 5px rgb(66, 56, 0);
+}
+
+.link-marcaTexto {
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.75);
+    min-width: 160px;
+    z-index: 1;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    width: 20rem;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content span, a {
+    text-align: center;
+    color: rgb(255, 183, 66);
+    text-shadow: 2px 0px 10px rgb(255, 162, 75);
+    text-shadow: 2px 0px 6px rgb(255, 228, 77);
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.lista-filmes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-filmes {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.capa-filmes {
+    width: 100%;
+}
+
+.link-capa {
+    height: 370px;
+}
+
